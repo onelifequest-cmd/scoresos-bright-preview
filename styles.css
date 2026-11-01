@@ -236,10 +236,14 @@ main { position: relative; z-index: 2; }
 }
 .chip.gold { background: rgba(244,217,107,0.35); color: #7a5a00; }
 .chip.green { background: rgba(34,163,90,0.18); color: var(--green); }
-.fly-card.c1 { top: 6%; left: -2%; animation-delay: 0s; }
-.fly-card.c2 { top: 18%; right: -4%; animation-delay: 1.2s; }
-.fly-card.c3 { bottom: 22%; left: 4%; animation-delay: 2.1s; }
-.fly-card.c4 { bottom: 8%; right: 2%; animation-delay: 0.7s; }
+.fly-card.c1 { top: 0%; left: -8%; animation-delay: 0s; }
+.fly-card.c2 { top: 0%; right: -10%; animation-delay: 1.2s; }
+.fly-card.c3 { bottom: 4%; left: -6%; animation-delay: 2.1s; }
+.fly-card.c4 { bottom: 2%; right: -8%; animation-delay: 0.7s; }
+/* Keep fly cards outside the gauge cluster so Funding dossier never covers TransUnion */
+.approval-fly { z-index: 2; }
+.score-gauges { z-index: 5; }
+.fly-card { max-width: 148px; }
 @keyframes floatCard {
   0%, 100% { transform: translate3d(0, 0, 0) rotate(-2deg); }
   50% { transform: translate3d(0, -14px, 0) rotate(2deg); }
