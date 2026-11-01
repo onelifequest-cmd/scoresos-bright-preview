@@ -2,6 +2,8 @@
 
 **Preview only** · noindex · not live scoresos.com · CROA-safe illustrative demo.
 
+Live URL: https://scoresos-bright-preview.onrender.com
+
 Concept: Patrick-approved bright direction (2026-11-01). Light background with brand green and gold. Background holograms tell the story — climbing 3-bureau score gauges, flying approval cards, funding skyline — with cursor parallax and scroll motion. Phones get a lighter CSS/canvas fallback.
 
 ## Stack
